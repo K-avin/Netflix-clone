@@ -8,7 +8,7 @@ const List comingSoonJson = [
     "type": "Gritty - Dark - Action Thriller - Action & Adventure - Drama",
     "date": "Coming Friday",
     "duration": true
-  },
+  }, 
   {
     "img": "assets/images/banner_1.webp",
     "title_img": "assets/images/title_img_1.webp",
