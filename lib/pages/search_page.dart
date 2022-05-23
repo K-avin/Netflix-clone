@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/json/search_json.dart';
+import 'package:movie_app/models/search_json.dart';
 import 'package:movie_app/pages/video_detail_page.dart';
 
 class SearchPage extends StatefulWidget {

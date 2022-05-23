@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/json/home_json.dart';
+import 'package:movie_app/models/home_json.dart';
 import 'package:movie_app/pages/video_detail_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -211,15 +211,15 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Column(
-                        children: [
-                          const Icon(
+                        children: const [
+                          Icon(
                             Icons.info_outline,
                             size: 25,
                           ),
-                          const SizedBox(
+                          SizedBox(
                             height: 5,
                           ),
-                          const Text(
+                          Text(
                             "Info",
                             style: TextStyle(fontWeight: FontWeight.w600),
                           )

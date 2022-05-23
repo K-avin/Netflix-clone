@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/json/on_boarding_entity.dart';
-import 'package:movie_app/pages/choose_your_plan_page.dart';
+import 'package:movie_app/models/on_boarding_entity.dart';
+import 'package:movie_app/pages/subscription/choose_your_plan_page.dart';
 import 'package:movie_app/widgets/header_widget.dart';
 
 class OnBoardingScreen extends StatefulWidget {

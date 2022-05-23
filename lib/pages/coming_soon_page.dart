@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/json/coming_soon_json.dart';
+import 'package:movie_app/models/coming_soon_json.dart';
 
 class ComingSoonPage extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/pages/sign_in_page.dart';
+import 'package:movie_app/pages/authentication/sign_in_page.dart';
 
 class HeaderWidget extends StatelessWidget {
   @override

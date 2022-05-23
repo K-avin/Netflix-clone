@@ -1,11 +1,11 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:movie_app/json/root_app_json.dart';
+import 'package:movie_app/models/root_app_json.dart';
 import 'package:movie_app/pages/coming_soon_page.dart';
 import 'package:movie_app/pages/download_page.dart';
 import 'package:movie_app/pages/home_page.dart';
-import 'package:movie_app/pages/profile_page.dart';
+import 'package:movie_app/pages/user/profile_page.dart';
 import 'package:movie_app/pages/search_page.dart';
 import 'package:movie_app/pages/video_detail_page.dart';
 

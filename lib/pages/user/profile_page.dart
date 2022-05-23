@@ -3,8 +3,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:movie_app/pages/authentication/sign_in_page.dart';
 import 'package:movie_app/pages/home_page.dart';
-import 'package:movie_app/pages/login_page.dart';
 
 class ProfilePage extends StatefulWidget {
   @override
@@ -225,6 +225,14 @@ class _ProfilePageState extends State<ProfilePage> {
 
   GestureDetector buildAccountSignoutRow(BuildContext context, String title) {
     return GestureDetector(
+      onTap: () {
+        // if (_formKey.currentState!.validate()) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => SignInPage()),
+        );
+        // }
+      },
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Row(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/pages/create_your_account.dart';
+import 'package:movie_app/pages/authentication/create_your_account.dart';
 import 'package:movie_app/widgets/header_widget.dart';
 
 class PlansPage extends StatefulWidget {

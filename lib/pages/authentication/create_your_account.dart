@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:movie_app/pages/sign_up_page.dart';
+import 'package:movie_app/pages/authentication/sign_up_page.dart';
 import 'package:movie_app/widgets/header_widget.dart';
 
 class CreateYourAccountPage extends StatefulWidget {

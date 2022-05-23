@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/pages/plans_page.dart';
+import 'package:movie_app/pages/subscription/plans_page.dart';
 import 'package:movie_app/widgets/header_widget.dart';
 
 class ChooseYourPlanPage extends StatefulWidget {
